@@ -1,0 +1,97 @@
+.footer{
+    max-width: 1780px;
+    margin: 0 auto;
+    background: #000;
+
+}
+
+.footer__list{
+    display: flex;
+    color:white;
+}
+
+.footer__socials{
+    display: flex;
+    flex-direction: column;
+    padding-top: 119px;
+    padding-left: 70px;
+    gap: 32px;
+    margin-right: 450px;
+}
+
+.footer__header{
+    color: #FFF;
+    font-size: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    
+}
+
+.item__text{
+    width: 415px;
+    color: #8E8E8E;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    
+}
+
+.footer__socItems{
+    display: flex;
+    gap:14px;
+    margin-bottom: 178px;
+}
+
+
+.footer__info, 
+.footer__links,
+.footer__terms{
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    width: 270px;
+}
+
+.info__header, 
+.info__about, 
+.info__contacts, 
+.info__support, 
+.info__careers,
+.links__header,
+.link__orders,
+.link__size,
+.link__careers,
+.link__location,
+.terms__header,
+.link__location,
+.link__orders
+{
+    color: #D9D9D9;
+    
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+
+.info__about, 
+.info__contacts, 
+.info__support, 
+.info__careers,
+.link__orders,
+.link__size,
+.link__careers,
+.link__location
+{
+    color: #8E8E8E;
+}
+

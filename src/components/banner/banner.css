@@ -1,0 +1,98 @@
+.banner {
+	margin-bottom: 63px;
+}
+.banner__img{
+	position: relative;
+	left:1px;
+	flex-shrink: 0;
+}
+.banner__content {
+	display: flex;
+	
+}
+
+.banner__text{
+	position: relative;
+	width: 933px;
+	left: 0px;
+	padding-top: 139px;
+	padding-left: 45px;
+	background: linear-gradient(360deg, #E0C340 0%, #DFC23E 3.93%, #E1C441 7.23%, #E3C743 10.23%, #E4C542 13.14%, #E6C744 16.22%, #E7C845 19.84%, #E5C643 24.38%, #E6C945 31.00%, #E3C743 37.19%, #E9CA48 43.33%, #EDCE49 50.36%, #F0D44C 56.57%, #F4D84F 62.71%, #F6DA52 67.12%, #F7DB53 73.77%, #F9DD55 79.08%, #F9DF56 85.64%, #FAE157 93.50%, #F9DF56 100%);
+}
+
+.banner__title {
+	
+	max-width: 593px;
+	margin-bottom: 40px;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 1.25;
+}
+
+.banner__desc {
+	width: 578px;
+	margin-bottom: 32px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: calc(48 / 32);
+	letter-spacing: -0.05em;
+}
+.banner__data, .banner__terms{
+	color: #000;
+font-size: 36.04px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+line-height: 52.316px;
+letter-spacing: 0.721px;
+}
+
+.banner__terms{
+	font-weight: 400;
+	margin-bottom: 52px;
+}
+
+.banner__btn-wrapper {
+	display: flex;
+	column-gap: 34px;
+	align-items: center;
+}
+
+
+
+.banner__btn {
+	padding: 26px 52px;
+
+	background: #000000;
+	border-radius: 10px;
+
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: -0.05em;
+	color: #fff;
+}
+
+.highlight {
+	position: relative;
+	display: inline-block;
+}
+
+.highlight span {
+	position: relative;
+	z-index: 1;
+}
+
+.highlight::before {
+	width: 541px;
+	content: '';
+	display: block;
+	position: absolute;
+	top: -12px;
+	bottom: 0px;
+	left: -40px;
+	right: -160px;
+	background-color: #fff;
+	transform: rotate(-2deg);
+}
+
